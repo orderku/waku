@@ -1,3 +1,6 @@
+const wa = require('@open-wa/wa-automate');
+
+
 wa.create({
   sessionId: "COVID_HELPER",
   multiDevice: true, //required to enable multiDevice support
