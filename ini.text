@@ -1,5 +1,5 @@
 const wa = require('@open-wa/wa-automate');
-
+import { create, Client, decryptMedia, ev } from '@open-wa/wa-automate';
 
 wa.create({
   sessionId: "COVID_HELPER",
